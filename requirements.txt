@@ -10,3 +10,4 @@ git+https://github.com/ritheshrkrm/cinemagoer
 datetime
 pytz
 aiohttp
+openai
