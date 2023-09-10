@@ -11,4 +11,3 @@ datetime
 pytz
 aiohttp
 openai
-markdown 
