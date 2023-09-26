@@ -174,6 +174,7 @@ Request Again"""
 
 <b>Media available over our bot is not owned by us and uploaded over the internet by someone else. This bot just index those files for easy search by the users. We respect all copyright laws,if you have any complaint about any content available in this bot please inform the creator of the bot we will remove it ASAP
 By @AM_FILMS</b>
+
 ○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/CKFLICKS'>𝖳𝗁𝗂𝗌 𝖯𝖾𝗋𝗌𝗈𝗇</a>
 
 ○ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉 : <a href='https://t.me/AM_FILMS'>𝖳𝖺𝗉 𝖧𝖾𝗋𝖾</a>
