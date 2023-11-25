@@ -2,15 +2,17 @@ class script(object):
     START_TXT = """Hey sweetheart.... {} 💖
 
 
-I'm File Searcher bot 🤫
+I'm Drama Searcher bot 🤫
 
-Here you can Search files in Our Bot. Just Start Typing....
+Here you can Search dramas in Our Bot. Just Start Typing....
 
-I can provide movies and series in both pm and group 🥱
+I can provide you all kinds dramas
 
-Click on the button below to add me your group and enjoy new movies with your friends and family members ❤️
+I have korean,Chinese,Japanese and Thai dramas in my cloud...
 
-<b>😎 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 @CKFLICKS</b>"""
+Click on the button below to add me your group and enjoy new dramas with your friends and family members ❤️
+
+<b>😎 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 @DramaShip</b>"""
 
     HELP_TXT = """🙋🏻‍♂️   𝖧𝖾𝗅𝗅𝗈𝗈𝗈  {} ♥️
 
@@ -19,7 +21,7 @@ Click on the button below to add me your group and enjoy new movies with your fr
 ○  𝖲𝖾𝖺𝗋𝖼𝗁 𝗎𝗌𝗂𝗇𝗀 𝗂𝗇𝗅𝗂𝗇𝖾 𝗆𝗈𝖽𝖾
 𝖳𝗁𝗂𝗌 𝗆𝖾𝗍𝗁𝗈𝖽 𝗐𝗈𝗋𝗄𝗌 𝗈𝗇 𝖺𝗇𝗒 𝖼𝗁𝖺𝗍, 𝖩𝗎𝗌𝗍 𝗍𝗒𝗉𝖾 <b>Bot Username</b> 𝖺𝗇𝖽 𝗍𝗁𝖾𝗇 𝗅𝖾𝖺𝗏𝖾 𝖺 𝗌𝗉𝖺𝖼𝖾 𝖺𝗇𝖽 𝗌𝖾𝖺𝗋𝖼𝗁 𝖺𝗇𝗒 𝗆𝗈𝗏𝗂𝖾 𝗒𝗈𝗎 𝗐𝖺𝗇𝗍...
 
-🙋🏻‍♂<b>😎 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 @CKFLICKS</b>"""     
+🙋🏻‍♂<b>😎 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 @DramaShip</b>"""     
  
 
 
