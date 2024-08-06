@@ -14,21 +14,21 @@ def is_enabled(value, default):
 # Bot information
 PORT = environ.get("PORT", "8000")
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+API_ID = int(environ.get('API_ID', '28714959'))
+API_HASH = environ.get('API_HASH', 'c0b9797634090ee3f4c1c56db6c051a7')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6605677522:AAEnJ5MArp009jgsHTy5SJ91rSTvZnJw6xU')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 # Bot images & videos
 PICS = (environ.get('PICS', 'https://telegra.ph/file/5553dc39f968b364d4856.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/612d6c18c6dd769322844.jpg")
+NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/17649ef59ff628f291b1d.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/ea40f1b53dd3b6315c130.mp4")
-SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/145e01158bf5ea3bc798b.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/2a888a370f479f4338f7c.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1905251964 5398056049').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
@@ -43,7 +43,7 @@ SUPPORT_CHAT_ID = -1001911092745
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Kichu:botx@cluster0.ggafusf.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "PIRO")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'FILES')
 
@@ -51,16 +51,16 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'FILES')
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001678094109'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'ckflicks_group')
-P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
+P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", '''<b>⎙ ꜰɪʟᴇ ɴᴀᴍᴇ :</b> `{file_name}` \n\n <b>〠ꜰɪʟᴇ ꜱɪᴢᴇ :</b> `{file_size}` \n\n <b>⌾ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : </b><a href='https://t.me/AM_FILMS'>@ᴀᴍ_ꜰɪʟᴍꜱ</a>  </b>''')
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", 'ðŸ“‚ <em>File Name</em>: <code>|{file_name}</code> \n\nðŸ–‡ <em>File Size</em>: <code>{file_size}</code> \n\nâ¤ï¸â€ðŸ”¥ <b>Join @DramaShip</b>')
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", '')
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", '''⌾ ᴛɪᴛʟᴇ : {title} \n⌾ ɢᴇɴʀᴇꜱ : {genres} \n⌾ ʀᴀᴛɪɴɢ : {rating} \n⌾ ʟᴀɴɢᴜᴀɢᴇ : {languages} \n⌾ ʀᴜɴ ᴛɪᴍᴇ : {runtime} \n⌾ ʀᴇʟᴇᴀꜱᴇ ɪɴꜰᴏ : {year} \n⌾ ᴄᴇɴᴛᴜʀɪᴇꜱ : {countries} \n\n⌾ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://t.me/AM_FILMS'>@ᴀᴍ_ꜰɪʟᴍꜱ</a>  </b>''')
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", 'ðŸ· ð–³ð—‚ð—ð—…ð–¾: <a href={url}>{title}</a> \nðŸ”® ð–¸ð–¾ð–ºð—‹: {year} \nâ­ï¸ ð–±ð–ºð—ð—‚ð—‡ð—€ð—Œ: {rating}/ 10  \nðŸŽ­ ð–¦ð–¾ð—‡ð–¾ð—‹ð—Œ: {genres} \n\nðŸŽŠ ð–¯ð—ˆð—ð–¾ð—‹ð–¾ð–½ ð–¡ð—’ [ã€ŽCKFLICKSã€](t.me/CKFLICKS)')
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
