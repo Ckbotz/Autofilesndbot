@@ -83,7 +83,8 @@ async def get_search_results(chat_id, query, file_type=None, max_results=10, off
                 max_results = 10
             else:
                 max_results = int(MAX_B_TN)
-    query = query.strip()
+    query = re.sub(r"[-:\"';!]", " ", query)
+    query = re.sub(r"\s+", " ", query).strip()
     #if filter:
         #better ?
         #query = query.replace(' ', r'(\s|\.|\+|\-|_)')
