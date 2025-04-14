@@ -1,4 +1,4 @@
-pyrofork==2.3.45
+pyrofork
 tgcrypto
 pymongo[srv]==3.12.3
 motor==2.5.1
@@ -13,3 +13,4 @@ aiohttp
 openai
 python-dotenv
 psutil
+pyromod
